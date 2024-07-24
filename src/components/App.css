@@ -1,0 +1,58 @@
+.navbar-brand {
+    color: black;
+    padding: 5px 20px;
+    outline: 1px solid black;
+    font-size: 25px;
+    border-radius: 2px;
+}
+.head{
+    margin: 90px 0px 25px 0px;
+    color:#ffffff;
+}
+.head:hover{
+    color: black;
+    cursor: pointer;
+  
+}
+.navbar-brand:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.nav-link {
+    padding: 5px 10px ;
+    color: black;
+    border-radius: 2px;
+}
+.nav-link:hover{
+    outline: 1px solid black  ;
+}
+.nav-link:active {
+    color: black;
+    background-color: rgb(14, 27, 208);
+
+}
+.nav-link:visited{
+    color: black;
+}
+
+.navbar-toggler {
+    background-color: #ffffff;
+    outline: 1px solid black;
+    border-radius: 2px ;
+    padding: 5px 10px;
+   
+}
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+body {
+   background-image: url('bg.jpg'); 
+   background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  min-height: 100vh;
+}
